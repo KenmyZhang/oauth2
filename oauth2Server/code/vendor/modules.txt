@@ -1,0 +1,54 @@
+# github.com/ant0ine/go-json-rest v3.3.2+incompatible
+## explicit
+github.com/ant0ine/go-json-rest/rest
+github.com/ant0ine/go-json-rest/rest/trie
+# github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394
+github.com/axgle/mahonia
+# github.com/bitly/go-simplejson v0.5.0
+github.com/bitly/go-simplejson
+# github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869
+## explicit
+# github.com/btcsuite/winsvc v1.0.0
+github.com/btcsuite/winsvc/mgr
+github.com/btcsuite/winsvc/svc
+github.com/btcsuite/winsvc/winapi
+# github.com/go-sql-driver/mysql v1.4.1
+github.com/go-sql-driver/mysql
+# github.com/gookit/color v1.1.7
+github.com/gookit/color
+# github.com/jander/golog v0.0.0-20150917071935-954a5be801fc
+github.com/jander/golog/logger
+# github.com/jinzhu/gorm v1.9.11
+## explicit
+github.com/jinzhu/gorm
+# github.com/jinzhu/inflection v1.0.0
+github.com/jinzhu/inflection
+# github.com/kardianos/service v1.0.1-0.20191017145738-4df36c9fc1c6
+github.com/kardianos/service
+# github.com/muesli/cache2go v0.0.0-20191019095710-4098a3aa8c94
+github.com/muesli/cache2go
+# github.com/xxjwxc/oauth2 v0.0.0-20190808024603-51b29e7b4508 => ../../
+## explicit
+github.com/xxjwxc/oauth2/def
+github.com/xxjwxc/oauth2/def/mysign
+# github.com/xxjwxc/public v0.0.0-20200315080135-5977d4898a3c
+## explicit
+github.com/xxjwxc/public/dev
+github.com/xxjwxc/public/errors
+github.com/xxjwxc/public/message
+github.com/xxjwxc/public/mycache
+github.com/xxjwxc/public/mydef
+github.com/xxjwxc/public/mylog
+github.com/xxjwxc/public/mysqldb
+github.com/xxjwxc/public/server
+github.com/xxjwxc/public/timerDeal
+github.com/xxjwxc/public/tools
+# golang.org/x/sys v0.0.0-20191104094858-e8c54fb511f6
+golang.org/x/sys/windows
+golang.org/x/sys/windows/registry
+golang.org/x/sys/windows/svc
+golang.org/x/sys/windows/svc/eventlog
+golang.org/x/sys/windows/svc/mgr
+# google.golang.org/appengine v1.4.0
+google.golang.org/appengine/cloudsql
+# github.com/xxjwxc/oauth2 => ../../
