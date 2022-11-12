@@ -1,9 +1,9 @@
 package mysign
 
 import (
+	"errors"
 	"strings"
 	"time"
-	"errors"
 
 	"github.com/xxjwxc/public/mycache"
 	"github.com/xxjwxc/public/mylog"
@@ -12,17 +12,17 @@ import (
 )
 
 func init() {
-	//OnInit()
+	OnInit()
 }
 
 var db_url string
 
-func SetDburl(src string){
+func SetDburl(src string) {
 	db_url = src
 }
 
-func getDbUrl()string{
-	if len(db_url) > 0{
+func getDbUrl() string {
+	if len(db_url) > 0 {
 		return db_url
 	}
 

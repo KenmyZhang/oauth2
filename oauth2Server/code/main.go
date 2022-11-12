@@ -9,6 +9,7 @@ import (
 	"oauth2Server/data/config"
 	"oauth2Server/data/view/timecallback"
 
+	"github.com/xxjwxc/oauth2/def/mysign"
 	"github.com/xxjwxc/public/server"
 	"github.com/xxjwxc/public/timerDeal"
 )
@@ -28,6 +29,7 @@ func CallBack() {
 }
 
 func main() {
+	mysign.SetDburl(config.GetDbUrl())
 	if config.OnIsDev() {
 		CallBack()
 	} else {
